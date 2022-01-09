@@ -22,9 +22,8 @@ button, input[type="submit"] {
     margin-right:50px;  
 }
 #animals-list{
-    display: flex;
-    flex-wrap: wrap;
-    list-style-type: none;
+    display: inline-block;
+    
 }
 .endagered-animals-list{
     margin: 0.5rem 0.5rem;

@@ -24,9 +24,9 @@
                 <label for = "continent" class="primary">Continent</label>
                 <select id = "continent">
                     <option value="" disabled selected></option>
-                    <option value ="Animals"> Endagered Animals</option>
-                    <option value = "Species"> Spicies</option>
-                    <option value = "Blog Post">Blog Post</option>   
+                    <option value ="Animals"> Asia</option>
+                    <option value = "Species"> Indonesia</option>
+                    <option value = "Blog Post">Mexico</option>   
                 </select>
             </div>
         </div>
@@ -35,6 +35,23 @@
     <button id = "delete-all"> Delete All</button>
     <h2>Endagered Animals List</h2>
     <ul id = "animals-list"></ul>
+
+
+    <h2> Animals Names</h2>
+    <form>
+    <input  type= "radio" name="name"  onclick="check(this.value)"  value ="White Rhino">White Rhino<br>
+    <input   type= "radio"  name="name" onclick="check(this.value)"  value="Giant Panda"/>Giant Panda<br>
+    <input   type= "radio" name="name"  onclick="check(this.value)" value="test"/>Blue whale<br>
+      Animal name is:<input type="text" id="answer" size="20">
+      </form>
+  
+    <h2> Animals Species</h2>
+    <form>
+    <input   type= "radio" name="species" onclick="animal(this.value)" value="Mamale"/>Mamale<br>
+    <input   type= "radio"   name="species" onclick="animal(this.value)" value="Forest"/>Forest<br>
+    <input   type= "radio"   name="species" onclick="animal(this.value)" value="Marine"/>Marine<br>
+    Animal Species is:<input type ="text" id="test" size="20">
+  </form>
     
 </body>
 </html>

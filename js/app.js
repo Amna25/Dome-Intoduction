@@ -13,7 +13,7 @@ const handleNewItemFormSubmit = function(event){
     const animalList = document.querySelector('#animals-list')
     animalList.appendChild(endageredAnimalsList);
 
-    event.target.reset();
+
 }
 
 const createEndageredAnimalsList = function(form) {
@@ -39,3 +39,18 @@ const handleDeleteAllClick = function(event){
     const endageredAnimalsList = document.querySelector('#animals-list')
     endageredAnimalsList.innerHTML = '';
 }
+document.addEventListener('DOMContentLoaded', () =>{
+    console.log('javaScript has loaded')
+  
+  })
+  
+  function check(name){
+    document.querySelector("#answer").value=name;
+  }
+  
+  
+  function animal(species){
+    document.querySelector("#test").value=species;
+  }
+  
+  
